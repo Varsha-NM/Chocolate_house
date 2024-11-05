@@ -1,5 +1,5 @@
 # Chocolate_house
-This is a project to manage seasonal flavour, ingredients inventory, customers suggestion and allergy concerns
+This is a project to manage chocolate seasonal flavour, ingredients inventory, customers suggestion and allergy concerns
 # To run this project
 1) create virtual environment
 2) activate virtual environment
