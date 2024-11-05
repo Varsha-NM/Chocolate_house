@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Chocolate House</title>
+</head>
+<body>
+    <header><h1><center>Welcome to the Chocolate House</center></h1>
+        
+    <nav><center>
+        <a href="/flavors">Seasonal Flavors</a>|
+        <a href="/inventory">Ingredient Inventory</a>|
+        <a href="/suggestions">Customer Suggestions</a>|
+        <a href="/allergies">Allergy Concerns</a>
+    </center></header>
+    </nav>
+    <main>
+        {% block content %} {% endblock %}
+    </main>
+</body>
+
+</html>
