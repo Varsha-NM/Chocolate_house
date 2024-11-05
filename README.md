@@ -8,4 +8,5 @@ This is a project to manage chocolate seasonal flavour, ingredients inventory, c
 5) Add flavor name
 6) Add ingredient name and quantity
 7) Add customer name and suggestion
-8) Add Allergy concern 
+8) Add Allergy concern
+9) The added items are displayed in database
